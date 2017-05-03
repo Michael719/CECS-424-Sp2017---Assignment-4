@@ -1,0 +1,13 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.4.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- solve.
+mrklatu saw the clothesline on tuesday.
+msgort saw the balloon on wednesday.
+mrnikto saw the frisbee on thursday.
+msbarrada saw the water_tower on friday.
+true 

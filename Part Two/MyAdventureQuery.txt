@@ -1,0 +1,141 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.4.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- start.
+
+Enter commands using standard Prolog syntax.
+Available commands are:
+start.                    -- to start the game.
+n.  s.  e.  w.  u.  d.    -- to go in that direction.
+take(Object).             -- to pick up an object.
+drop(Object).             -- to put down an object.
+look.                     -- to look around you again.
+instructions.             -- to see this message again.
+halt.                     -- to end the game and quit.
+
+Your sanctuary. You would skip class and play video games
+all day but you have an important test in a few minutes.
+The door's on the west side let's roll!
+
+
+true.
+
+?- w.
+You are at the top of the stairs. Lil sis's door is to the west.
+You should probably go down the the stairs though.
+
+
+true.
+
+?- w.
+Even if you weren't late for school, you still would not go in there.
+You can't go that way.
+true.
+
+?- d.
+You are at the bottom of the stairs. To the north of here is the bathroom.
+The door to the outside is south. To the west is the living room. 
+
+
+true.
+
+?- s.
+You can't head outside without shoes on!
+You can't go that way.
+true.
+
+?- n.
+You are in the bathroom. Luckily you showered last night so no need 
+to do that again right now.
+
+There is a left_shoe here.
+
+true.
+
+?- take(left_shoe).
+OK.
+true.
+
+?- s.
+You are at the bottom of the stairs. To the north of here is the bathroom.
+The door to the outside is south. To the west is the living room. 
+
+
+true.
+
+?- s.
+You're missing your other shoe!
+You can't head outside without shoes on!
+You can't go that way.
+true.
+
+?- w.
+You're in the living room. Your parent's room is west
+of here. The kitchen is north of here.
+
+
+true.
+
+?- n.
+You are in the kitchen. Unfortunately there is no time to make food.
+
+There is a right_shoe here.
+
+true.
+
+?- take(right_shoe).
+OK.
+true.
+
+?- s.
+You're in the living room. Your parent's room is west
+of here. The kitchen is north of here.
+
+
+true.
+
+?- w.
+You are in your parent's room. There's a note here that says: "Hey son, your sister 
+was messing with your stuff after you knocked out. We were able to find the backpack 
+but we can't find your shoes, sorry. Hope you find them in time! Have fun at school! xo."
+
+There is a backpack here.
+
+true.
+
+?- take(backpack).
+OK.
+true.
+
+?- e.
+You're in the living room. Your parent's room is west
+of here. The kitchen is north of here.
+
+
+true.
+
+?- s.
+You can't go that way.
+true.
+
+?- e.
+You are at the bottom of the stairs. To the north of here is the bathroom.
+The door to the outside is south. To the west is the living room. 
+
+
+true.
+
+?- s.
+Sweet you made it out in time! You passed the test with flying colors 
+and ended up becaming a CEO of your own company. You win at life!
+
+The game is over. Please enter the "halt." command.
+
+
+true.
+
+?- 

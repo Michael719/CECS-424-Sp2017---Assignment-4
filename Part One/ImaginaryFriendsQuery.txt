@@ -1,0 +1,13 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.4.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- solve.
+joanne wrote about a moose in a circus.
+lou wrote about a grizzly_bear in a train.
+ralph wrote about a seal in a rock_band.
+winnie wrote about a zebra in a spaceship.
+true 
